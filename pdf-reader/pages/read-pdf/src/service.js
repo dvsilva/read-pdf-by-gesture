@@ -65,6 +65,8 @@ export default class Service {
         (leftEAR >= EAR_THRESHOLD_CLOSED && rightEAR < EAR_THRESHOLD_OPEN) ||
         (leftEAR < EAR_THRESHOLD_OPEN && rightEAR >= EAR_THRESHOLD_CLOSED);
 
+      // console.log(leftEAR + ' - ' + rightEAR + ' - ' + blinked);
+
       if (!blinked) continue;
       if (!shouldRun()) continue;
 

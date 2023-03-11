@@ -46,8 +46,8 @@ async function getWorker() {
 }
 
 const view = new View();
-const [rootPath] = window.location.href.split('/pages/');
-view.setVideoSrc(`${rootPath}/assets/video.mp4`);
+// const [rootPath] = window.location.href.split('/pages/');
+// view.setVideoSrc(`${rootPath}/assets/video.mp4`);
 
 const worker = await getWorker();
 

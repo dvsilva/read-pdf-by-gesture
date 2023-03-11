@@ -5,7 +5,7 @@ export default class PDF {
   #pageCountSpan = document.getElementById('page_count');
 
   #pdfDoc = null;
-  #pageNum = 3;
+  #pageNum = 1;
   #pageRendering = false;
   #pageNumPending = null;
   #scale = 1.5;

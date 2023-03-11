@@ -1,0 +1,29 @@
+
+✅  IMPORTANTE
+▸ Deixe um star no projeto 🔥 : https://github.com/erickWendel/semana-javascript-expert07
+
+✅  REFERENCIAS
+▸ Referências da imersão: https://github.com/ErickWendel/semana-javascript-expert07/blob/main/referencias.txt
+‍
+▸ Template inicial em: https://github.com/erickWendel/semana-javascript-expert07
+
+✅  DA AULA
+▸ Codigo do Calculo: https://github.com/monaca-samples/blink-to-text/blob/f3d578ff641298913833b04e98e854bf1cfe38e1/src/js/blinkPrediction.js
+‍
+▸ Dependencias do arquivo worker.js:
+https://github.com/ErickWendel/semana-javascript-expert07/blob/main/referencias.md#aula01
+
+▸ ERRATA:
+Em 18:18 teve um erro de edição que acabou perdendo o código do index.css para o desenho da junta das mãos. Aqui está ele:no arquivo em class03/pages/titles/lib/index.css adicione no fim do arquivo:
+
+#hands {  
+ /* faz com que elementos possam ser clicaveis */    
+pointer-events: none;    
+/* faz ficar em cima dos elementos */    
+position: fixed;    
+/* fica à frente dos elementos */  
+ z-index: 2;
+}
+
+https://github.com/liady/solar-hands
+https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection
